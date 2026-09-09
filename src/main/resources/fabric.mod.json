@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "morpher",
+  "version": "1.1.3",
+  "name": "Morpher",
+  "description": "Morpher Mod",
+  "authors": [
+    "Azukiss \u0026 BadEndingg"
+  ],
+  "license": "MIT",
+  "icon": "assets/morpher/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "azbd.morpher.MorpherMod"
+    ],
+    "client": [
+      "azbd.morpher.MorpherClient"
+    ]
+  },
+  "mixins": [
+    "morpher.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.16.9",
+    "minecraft": "~1.21.1",
+    "java": "\u003e\u003d17",
+    "fabric-api": "*",
+    "geckolib": "\u003e\u003d4.7",
+    "brrp_v1": "*"
+  },
+  "jars": []
+}

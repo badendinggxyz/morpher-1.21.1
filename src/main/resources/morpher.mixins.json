@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "azbd.morpher.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [],
+	"client": [
+		"PlayerRenderMixin",
+		"PlayerNameplateMixin",
+		"EntityRendererInvoker",
+		"InventoryMixin",
+		"ArmRenderMixin",
+		"ArmorRenderMixin",
+		"geckolib.AnimatableManagerInvoker",
+		"geckolib.AnimationControllerAccessor",
+		"geckolib.MixinAnimationProcessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
